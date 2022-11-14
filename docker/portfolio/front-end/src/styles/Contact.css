@@ -1,0 +1,36 @@
+.contact {
+  align-items: center;
+  color: #00253c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.emailIcon {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.icons {
+  align-items: center;
+  color: #00253c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.linkedinIcon {
+  color: blue;
+  font-size: 40px;
+}
+
+.githubIcon {
+  color: black;
+  font-size: 40px;
+  margin-left: 20px;
+}

@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  frontend:
+    build: ./portfolio/front-end
+    ports:
+      - 3000:3000

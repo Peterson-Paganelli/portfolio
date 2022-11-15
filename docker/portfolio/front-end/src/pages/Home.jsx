@@ -8,8 +8,21 @@ function Home() {
     <div>
       <Header />
       <div
-      className="title-text">
+      className="title-text"
+      >
         <h1>Home</h1>
+      </div>
+      <div
+      className="introduction-div"
+      >
+        <h1
+        className="presentation"
+        >
+          I'm Peterson Paganelli
+        </h1>
+        <p
+        className="presentation2"
+        >FullStack Developer</p>
       </div>
       <Footer />
     </div>

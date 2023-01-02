@@ -19,11 +19,11 @@ function Home() {
         <h1
         className="presentation"
         >
-          I'm Peterson Paganelli
+          Peterson Paganelli
         </h1>
         <p
         className="presentation2"
-        >FullStack Developer</p>
+        >Desenvolvedor FullStack</p>
       </div>
 
       <Footer />

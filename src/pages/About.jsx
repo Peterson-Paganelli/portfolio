@@ -10,27 +10,31 @@ function About() {
       <Header />
       <div
       className="title-text">
-        <h1>About Me</h1>
+        <h1>Sobre mim</h1>
       </div>
       <div
       className="text-div">
         <p
         className="text-paragraph">
-          Web developer, studying web development at Trybe. 
-          Learning React hooks at the moment, I have knowledge in git, github, HTML, CSS, 
-          Jest, React, Redux, Context API, RTL, agile methodologies, Docker and MySql. 
+          Estudante de desenvolvimento Web pela Trybe.
+          Atualmente estudando Node.js e Express, possuo conhecimentos em Git, 
+          Github, HTML, CSS, Javascript, Jest, React, RTL, Metodologias Ágeis, 
+          Redux, Context API, Docker, mySql, Node.js, Express.
         </p>
         <p
         className="text-paragraph">
-          I started learning technology at the beginning of the year 2020 and by the end of the same year 
-          I entered the Santa Catarina State University, where I stayed for one year and a half 
-          before doing trybe's selective process to join the course.
+          Comecei a estudar desenvolvimento de software no começo do ano de 2020, 
+          logo após o inicío da pandemia do Covid-19. No final do mesmo ano entrei 
+          na faculdade de Sistemas de informação pela Universidade do Estado de Santa Catarina, 
+          onde estudei até o 3° semestre antes de fazer o processo seletivo para entrar na Trybe.
         </p>
         <p
         className="text-paragraph">
-          I worked one year as TI support, providing service to company users, 
-          building and doing computer maintenance and managing the company's internal network. 
-          My goal as a student is to become a web developer with a wide knowledge in computer science and web deevlopment.
+          Trabalhei um ano na área de Suporte de TI, 
+          prestando atendimento ao usuário, fazendo montagem e manutenção em computadores 
+          e realizando o gerenciamento da rede interna da empresa.
+          Meu objetivo na Trybe é me tornar um desenvolvedor Web com amplo conhecimento em 
+          Front-End, Back-End e Computer Science.
         </p>
       </div>
       <Footer />

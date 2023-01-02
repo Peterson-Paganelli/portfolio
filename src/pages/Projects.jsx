@@ -10,16 +10,18 @@ function Projects() {
       <Header />
       <div
       className="title-text">
-        <h1>Projects</h1>
+        <h1>Projetos</h1>
       </div>
       <div
         className="projects">
         <p>
-          Here are some of the Projects
+          Projetos no qual eu trabalhei
         </p>
-        <p>
-          that I have worked on
-        </p>
+      </div>
+      <div
+      className="projects-list">
+        <img className="proj" id="allForOne" alt="allForOne results"/>
+        <img className="proj" id="oneForAll" alt="oneForAll results"/>
       </div>
       <Footer />
     </div>

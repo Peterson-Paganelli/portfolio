@@ -6,9 +6,9 @@ function Header() {
     return(
         <header>
             <Link className='links' to='/'>Home</Link>
-            <Link className='links' to='/about'>About Me</Link>
-            <Link className='links' to='/projects'>Projects</Link>
-            <Link className='links' to='/contact'>Contact</Link>
+            <Link className='links' to='/about'>Sobre mim</Link>
+            <Link className='links' to='/projects'>Projetos</Link>
+            <Link className='links' to='/contact'>Contato</Link>
         </header>
     )
 }

@@ -12,7 +12,7 @@ function Contact() {
       className="contact"
       >
         
-        <h1>Contact</h1>
+        <h1>Contato</h1>
         <div>
           <div>
             <h3 className='emailIcon'><FaRegEnvelope /></h3>
@@ -28,8 +28,8 @@ function Contact() {
             <p className='mapIcon'><FaMapMarkedAlt /></p>
             <div className="localization">
               <div>
-                <p>State:</p>
-                <p>City:</p>
+                <p>Estado:</p>
+                <p>Cidade:</p>
               </div>
               <div>
                 <p>Santa Catarina</p>

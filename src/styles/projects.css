@@ -1,0 +1,46 @@
+.projects {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.projects-list {
+  border: 2px solid green;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.proj {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.proj:hover {
+  height: 200px;
+  width: 300px;
+  opacity: 0.5;
+}
+
+#allForOne {
+  background-image: url(../img/allForOne.png);
+}
+
+#oneForAll {
+  background-image: url(../img/oneForAll.png);
+}
+
+#talkerManager {
+  background-image: url(../img/talkerManager.png);
+}
+
+#trybeWallet {
+ background-image: url(../img/trybeWallet.png);
+}
+  
+  

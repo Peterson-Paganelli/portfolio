@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import '../App.css'
-import '../styles/Projects.css'
+import '../styles/projects.css'
 
 function Projects() {
   return(
@@ -20,8 +20,10 @@ function Projects() {
       </div>
       <div
       className="projects-list">
-        <img className="proj" id="allForOne" alt="allForOne results"/>
-        <img className="proj" id="oneForAll" alt="oneForAll results"/>
+        <div className="proj" id="allForOne" alt="allForOne results"/>
+        <div className="proj" id="oneForAll" alt="oneForAll results"/>
+        <div className="proj" id="talkerManager" alt="talker Manager results"/>
+        <div className="proj" id="trybeWallet" alt="trybe Wallet"/>
       </div>
       <Footer />
     </div>

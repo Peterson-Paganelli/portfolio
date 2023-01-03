@@ -4,12 +4,16 @@
 }
 
 .projects-list {
-  border: 2px solid green;
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .proj {
@@ -17,14 +21,14 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 100px;
-  width: 150px;
-  margin-bottom: 10px;
+  width: 190px;
+  margin-bottom: 15px;
 }
 
 .proj:hover {
   height: 200px;
   width: 300px;
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 #allForOne {
@@ -42,5 +46,73 @@
 #trybeWallet {
  background-image: url(../img/trybeWallet.png);
 }
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+  .projects-list {
+    display: flex;
+    flex-direction: row;
+    height: 30em;
+    padding: 10px;
+  }
+
+  .column {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+    width: 100%;
+  }
+
+  .proj {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    height: 30%;
+    margin-bottom: 10px;
+    width: 65%;
+  }
   
+  .proj:hover {
+    height: 35%;
+    width: 85%;
+    opacity: 0.5;
+  }
+}
   
+@media screen and (min-width: 801px) {
+  .projects-list {
+    display: flex;
+    flex-direction: row;
+    height: 30em;
+    padding: 10px;
+  }
+
+  .column {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+    width: 100%;
+  }
+
+  .proj {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    height: 35%;
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  
+  .proj:hover {
+    height: 40%;
+    width: 55%;
+    opacity: 0.5;
+  }
+}

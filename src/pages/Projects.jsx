@@ -15,15 +15,22 @@ function Projects() {
       <div
         className="projects">
         <p>
-          Projetos no qual eu trabalhei
+          Alguns projetos realizados por mim
         </p>
       </div>
       <div
       className="projects-list">
-        <div className="proj" id="allForOne" alt="allForOne results"/>
-        <div className="proj" id="oneForAll" alt="oneForAll results"/>
-        <div className="proj" id="talkerManager" alt="talker Manager results"/>
-        <div className="proj" id="trybeWallet" alt="trybe Wallet"/>
+
+        <div className="column">
+          <div className="proj" id="allForOne" alt="allForOne results"/>
+          <div className="proj" id="oneForAll" alt="oneForAll results"/>
+        </div>
+
+        <div className="column">
+          <div className="proj" id="talkerManager" alt="talker Manager results"/>
+          <div className="proj" id="trybeWallet" alt="trybe Wallet"/>
+        </div>
+
       </div>
       <Footer />
     </div>

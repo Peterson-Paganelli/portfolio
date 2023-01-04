@@ -1,11 +1,12 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import '../App.css'
+import '../styles/Home.css'
 
 function Home() {
   return(
-    <div>
+    <div
+    className="home-div">
       <Header />
       <div
       className="title-text"

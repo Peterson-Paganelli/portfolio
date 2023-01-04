@@ -3,6 +3,7 @@
   color: #00253c;
   display: flex;
   flex-direction: column;
+  height: 25em;
   justify-content: center;
   margin-top: 100px;
 }

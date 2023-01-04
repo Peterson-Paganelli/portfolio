@@ -44,7 +44,7 @@
 }
 
 #trybeWallet {
- background-image: url(../img/trybeWallet.png);
+  background-image: url(../img/trybeWallet.png);
 }
 
 @media screen and (min-width: 700px) and (max-width: 800px) {

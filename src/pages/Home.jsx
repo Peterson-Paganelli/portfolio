@@ -25,7 +25,10 @@ function Home() {
         className="presentation2"
         >Desenvolvedor FullStack</p>
       </div>
-
+      <div
+      className="photo-div">
+        <div id="photo" alt="peter" />
+      </div>
       <Footer />
     </div>
   );

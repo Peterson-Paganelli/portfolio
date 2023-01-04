@@ -12,7 +12,7 @@ function About() {
       className="title-text">
         <h1>Sobre mim</h1>
       </div>
-      <div
+      <section
       className="text-div">
         <p
         className="text-paragraph">
@@ -36,7 +36,7 @@ function About() {
           Meu objetivo na Trybe é me tornar um desenvolvedor Web com amplo conhecimento em 
           Front-End, Back-End e Computer Science.
         </p>
-      </div>
+      </section>
       <Footer />
     </div>
   )

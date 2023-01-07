@@ -22,13 +22,17 @@ function Projects() {
       className="projects-list">
 
         <div className="column">
-          <div className="proj" id="allForOne" alt="allForOne results"/>
-          <div className="proj" id="oneForAll" alt="oneForAll results"/>
+          <a  className="proj" id="allForOne"
+            href="https://github.com/Peterson-Paganelli/mysql-all-for-one"> </a>
+          <a  className="proj" id="oneForAll" 
+            href="https://github.com/Peterson-Paganelli/mysql-one-for-all"> </a>
         </div>
 
         <div className="column">
-          <div className="proj" id="talkerManager" alt="talker Manager results"/>
-          <div className="proj" id="trybeWallet" alt="trybe Wallet"/>
+          <a className="proj" id="talkerManager" 
+            href="https://github.com/Peterson-Paganelli/Talker-Manager"> </a>
+          <a className="proj" id="trybeWallet" 
+            href="https://trybe-wallet-kappa.vercel.app/"> </a>
         </div>
 
       </div>
